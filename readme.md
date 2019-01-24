@@ -1,5 +1,5 @@
 # PHP HTTP Client
-http-client is the php package. It provides the ability to manage and parse request and response objects. It also provides support for HTTP client transactions via cURL.
+http-client is the php package. It provides the ability to manage and parse request object. It also provides support for HTTP client transactions via cURL.
 
 
 ## Requirement
