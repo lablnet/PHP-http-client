@@ -580,6 +580,18 @@ abstract class AbstractClient
     }
 
     /**
+     * Throw an error.
+     *
+     * @since 3.0.0
+     *
+     * @return void
+     */
+    public function throwError($error)
+    {
+        throw new \Exception($error);
+    }
+
+    /**
      * Create and open the client resource.
      *
      * @since 3.0.0
